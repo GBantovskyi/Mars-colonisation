@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Application</title>
+</head>
+
+<body bgcolor="#DEB887">
+    <h1>Application form to become a part of Mars Colonisation Program</h1>
+    <br>
+    <i><b></b><a href="index.html">Back to main page</a><b></b></i>
+    <br><br>
+
+
+    <form method="Post" action="https://formspree.io/gbantovsky@gmail.com">
+        First name<br>
+        <input type="text" name="firstname" size="50">
+        <br><br> Last name<br>
+        <input type="text" name="lastname" size="50">
+        <br><br> E-mail
+        <br>
+        <input type="text" name="email" size="50">
+
+        <br>
+        <h3>Gender</h3>
+
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+
+        <br>
+        <h3>Age</h3>
+
+        <input type="radio" name="age" value="16-18">16-18
+        <input type="radio" name="age" value="19-25">19-25
+        <input type="radio" name="age" value="26-30">26-30
+        <input type="radio" name="age" value="31-40">31-40
+        <input type="radio" name="age" value="40-60">40-60
+
+        <h3>Home country</h3>
+
+        <select name="county">
+    <option value="unitedstates">United States</option>
+    <option value="canada">Canada</option>
+    <option value="ukraine">Ukraine</option>
+    <option value="other">other</option>
+  </select>
+
+        <br>
+        <h3>Fiel of education</h3>
+
+        <select name="education" size="3" multiple style="width:310px; height:50px;">
+          <option value="engineering">Engineering</option>
+          <option value="medical">Medical</option>
+          <option value="legal">Legal</option>
+          <option value="computerscience">Computer science</option>
+          <option value="other">other</option>
+        </select>
+
+        <br><br>
+
+        <textarea name="message" style="width:310px; height:150px;">Leave your message here.</textarea>
+
+        <input type="submit" value="Submit" />
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
